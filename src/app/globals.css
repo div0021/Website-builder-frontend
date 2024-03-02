@@ -2,32 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background:#FBFCFD;
+  --navbg:#212731;
+  --navtxt:#D1D6DA;
+  --heading:#2C384A;
+  --text:#4B5665;
+  --link:#1B88F4;
+  --tag:#FF7724;
+  --footertxt:#B6BDC4;
+  --dropdown:#D1D6DA;
+  --subheading:#5C6874;
+  --cardtag:#074786;
+  --cardtagbg:#F2F4F7;
+  --carddiscount:#EF4C5D;
+  --cardoriginalPrice:#9FA9B3;
+  --separator:#E1E4E6;
+  --relevant:#727D87;
+  --ratingbox:#F3F9FF;
+  --ratingstar:#ffb80f;
+  --counttxt:#626E79;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+body{
+   min-width: fit-content !important;
+  overflow-x: hidden;
 }

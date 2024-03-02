@@ -8,11 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors:{
+        "navbg":"var(--navbg)",
+        "navtxt":"var(--navtxt)",
+        "heading":"var(--heading)",
+        "text":"var(--text)",
+        "link":"var(--link)",
+        "tag":"var(--tag)",
+        "footertxt":"var(--footertxt)",
+        "dropdown":"var(--dropdown)",
+        "subheading":"var(--subheading)",
+        "cardtag":"var(--cardtag)",
+        "cardtagbg":"var(--cardtagbg)",
+        "carddiscount":"var(--carddiscount)",
+        "cardoriginalPrice":"var(--cardoriginalPrice)",
+        "background":"var(--background)",
+        "separator":"var(--separator)",
+        "relevant":"var(--relevant)",
+        "ratingbox":"var(--ratingbox)",
+        "ratingstar":"var(--ratingstar)",
+        "counttxt":"var(--counttxt)",
+      }
     },
   },
   plugins: [],
