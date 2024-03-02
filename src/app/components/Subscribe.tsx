@@ -11,12 +11,13 @@ const Subscribe = () => {
           </h4>
           <div className="flex justify-center items-center w-2/3 sm:w-2/5 rounded-xl cursor-pointer">
             <input
-              type="text"
+              type="email"
               className=" hover:outline-none outline-none focus:outline-none px-3 py-2 rounded-l-xl w-full text-counttxt tracking-wide hover:text-black focus-within:text-black transition-all duration-300 ease-in-out border-l border-y border-link sm:border-none"
             />
             <button
-              type="button"
+              type="submit"
               className="text-white bg-link px-3 py-2 rounded-r-xl shrink-0"
+              onClick={(e)=>e.preventDefault()}
             >
               Sign up
             </button>
