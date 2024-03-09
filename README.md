@@ -15,19 +15,19 @@
 2. Interactive elements
 3. Precise depiction of design
 4. Responsive UI
-5. Deploy on vercel platform
+5. Deploy on vertical platform
 6. many more...
 
 
 # Assumption before running the application
 
- ***Make sure nodejs is installed in your system.
+ ***Make sure Nodejs is installed in your system.
 
 
 
 ## How To RUN
 
-Go to main directory and run
+Go to the main directory and run
 
 ```bash
 
@@ -49,5 +49,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Contact
 
 - GitHub [@div0021](https://github.com/div0021)
-- Linkdin [link](www.linkedin.com/in/divyanshu0021)
+- Linkedin [link](www.linkedin.com/in/divyanshu0021)
 - Gmail [link](singhdivyanshu943@gmail.com)
